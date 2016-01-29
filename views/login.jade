@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= title
+  p Login
+  form
+      input#username(type='text', placeholder='Username')
+      <br>
+      input#password(type='text', placeholder='Password')
+      <br>
+      input#submit(type='submit', value='Submit')
+      script(src='javascripts/login.js')

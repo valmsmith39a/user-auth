@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1= title
+  p Register
+  form
+      input#username(type='text', placeholder='Username')
+      <br>
+      input#password(type='password', placeholder='Password')
+      <br>
+      input#password-confirm(type='password', placeholder='Password Confirm')
+      <br>
+      input#submit(type='submit', value='Submit')
+      script(src='javascripts/register.js')
